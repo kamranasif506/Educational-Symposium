@@ -249,8 +249,17 @@
 #partners {
   background-color: #414246;
 }
+.about_partner {
+  display: none;
+}
+.about-footer {
+  background-color: #2E2E2E;
+}
 @media only screen and (max-width: 768px) {
   #navbar-btn {
+    display: block;
+  }
+  .about_partner {
     display: block;
   }
   .top-bar {

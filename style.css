@@ -29,16 +29,17 @@
 }
 
 .active-link {
-  color: #F34910 !important;
+  color: #f34910 !important;
   text-shadow: 3px 3px 7px #ccc;
 }
+
 .active_compaign {
-  border: 5px solid #F34910;
+  border: 5px solid #f34910;
   display: block;
-  
 }
+
 .text-color {
-  color: #F34910;
+  color: #f34910;
 }
 
 .nav-item:hover {
@@ -58,16 +59,18 @@
 .description {
   border: 6px solid #fff;
   padding: 3%;
-  background: #F8F8F8;
+  background: #f8f8f8;
   color: #868686;
 }
 
 .description-about {
   padding: 3%;
 }
+
 .font-weight {
   font-weight: 900;
 }
+
 .data_color {
   color: #595959;
 }
@@ -75,7 +78,7 @@
 .description_div {
   border: 6px solid #fff;
   padding: 3%;
-  background: #F8F8F8;
+  background: #f8f8f8;
   color: #868686;
 }
 
@@ -128,13 +131,14 @@
 .hr {
   width: 15%;
   margin: auto;
-  border: 1px solid #F34910;
+  border: 1px solid #f34910;
   opacity: unset;
 }
+
 .hr-partner {
   width: 5%;
   margin: auto;
-  border: 1px solid #F34910;
+  border: 1px solid #f34910;
   opacity: unset;
 }
 
@@ -142,15 +146,16 @@
   width: 100%;
   cursor: pointer;
   background-color: rgba(61, 61, 64, 0.5);
-  border-radius: 0px;
+  border-radius: 0;
 }
+
 .no_margin {
   margin: 1px;
   padding: 0;
 }
 
 .card-title {
-  color: #F34910;
+  color: #f34910;
 }
 
 .card_info {
@@ -197,6 +202,10 @@
   overflow: hidden;
 }
 
+.about-footer h3 {
+  color: #fff;
+}
+
 #footer h3 {
   margin-left: 4%;
 }
@@ -224,24 +233,29 @@
   text-decoration: none;
   float: right;
 }
+
 .active_compaign a {
-  color: #F34910;
+  color: #f34910;
 }
+
 .top-bar {
   display: flex;
 }
+
 .font_size {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 25px;
 }
+
 .font_size2 {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 25px;
 }
+
 .font_size3 {
   font-style: normal;
   font-weight: 800;
@@ -249,63 +263,74 @@
   text-decoration: underline;
   line-height: 25px;
 }
+
 .see_program {
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 28px;
   text-decoration: none;
   border-bottom: 1px solid #fff;
-
 }
+
 .see_more_btn {
   display: none;
 }
+
 #partner_heading {
-  color: #8F8F91;
+  color: #8f8f91;
 }
+
 #partners {
   background-color: #414246;
 }
+
 .about_partner {
   display: none;
 }
+
 .about-footer {
-  background-color: #2E2E2E;
+  background-color: #2e2e2e;
 }
-.about-footer h3 {
-  color: #fff;
-}
+
 @media only screen and (max-width: 768px) {
   #navbar-btn {
     display: block;
   }
+
   .about_partner {
     display: block;
   }
+
   .top-bar {
     display: none;
   }
+
   .about-footer {
     background-color: #fff;
   }
+
   .about-footer h3 {
-    color: #3B3E45;
+    color: #3b3e45;
   }
+
   .see_program {
     display: none;
   }
+
   .see_more_btn {
     display: block;
-    background-color: #F34910 !important;
+    background-color: #f34910 !important;
     color: white;
     border: 0 !important;
     border-radius: 0 !important;
     font-size: 1rem;
     padding: 20px 50px 20px 50px;
   }
+
   .active_compaign {
     display: none;
   }
+
   .bg-color {
     margin-left: 0;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
@@ -356,6 +381,7 @@
   .custom_height {
     height: auto;
   }
+
   .card_layout {
     display: flex;
     flex-direction: row;
@@ -363,20 +389,23 @@
     align-items: center;
     text-align: center;
   }
-  
+
   .card_layout > * {
     margin: 0 5px;
   }
+
   .card-title {
     width: 25%;
     padding-top: 0 !important;
     font-size: 14.27px;
   }
+
   .card-text {
     width: 60%;
     padding-top: 0 !important;
     font-size: 10.703px;
   }
+
   .material-symbols-outlined {
     width: 15%;
   }

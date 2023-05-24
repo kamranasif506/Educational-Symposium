@@ -130,6 +130,12 @@
   border: 1px solid #F34910;
   opacity: unset;
 }
+.hr-partner {
+  width: 5%;
+  margin: auto;
+  border: 1px solid #F34910;
+  opacity: unset;
+}
 
 .card-color {
   width: 100%;
@@ -236,6 +242,12 @@
 }
 .see_more_btn {
   display: none;
+}
+#partner_heading {
+  color: #8F8F91;
+}
+#partners {
+  background-color: #414246;
 }
 @media only screen and (max-width: 768px) {
   #navbar-btn {

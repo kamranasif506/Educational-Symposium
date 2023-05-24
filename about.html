@@ -41,18 +41,22 @@
           <a class="navbar-brand col-6" href="index.html">
             <img src="images/Educational Symposium.png" alt="Logo" class="navbar-logo">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button id="navbar-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <a href="#" id="close_nav" class="close_nav d-flex justify-content-end">
+               <span class="material-symbols-outlined text-black">
+                close
+              </span></a>
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link " href="index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="about.html">About</a>
               </li>
-              
+             
               <li class="nav-item">
                 <a class="nav-link" href="#partners">Partners</a>
               </li>
@@ -71,7 +75,7 @@
               </div>
               <div class="row mt-5 justify-content-center">
                 <div class="col-md-6 col-sm-10 col-xs-12 description_div">
-                  <p class="fs-5 mt-3 fw-bold description-about ">An Educational Symposium is an event that brings together educators, researchers, administrators, and other professionals in the field of education to share knowledge, discuss innovative practices, and explore current trends and challenges in education. It provides a platform for collaboration, networking, and professional development.</p>
+                  <p class="font_size mt-3 fw-bold description-about ">An Educational Symposium is an event that brings together educators, researchers, administrators, and other professionals in the field of education to share knowledge, discuss innovative practices, and explore current trends and challenges in education. It provides a platform for collaboration, networking, and professional development.</p>
               
                 </div>
               </div>
@@ -79,8 +83,8 @@
              <div class="row mt-5 justify-content-center">
               <div class="col-md-5 col-sm-10 col-xs-12">
                 <div class="lower-content">
-                  <p class="fw-bold fs-5">Please contact us per email for any further questions about Educational Symposium Global Summit 2023!</p>  
-                  <p class="fw-bold fs-5">educationalsymposium2023@gmail.com.</p>  
+                  <p class="fw-bold font_size">Please contact us per email for any further questions about Educational Symposium Global Summit 2023!</p>  
+                  <p class="fw-bold font_size">educationalsymposium2023@gmail.com.</p>  
                 </div> 
               </div>
              </div> 
@@ -114,7 +118,7 @@
         <div class="container p-3 mt-5 mb-5">
           <h3 id="program_heading" class="text-center">See the past ES Global Summit</h3>
           <hr class="hr">
-          <div class="fs-5 p mt-2 text-center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi aliquid aperiam debitis accusantium.</div>
+          <div class="font_size p mt-2 text-center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi aliquid aperiam debitis accusantium.</div>
         
         </div>
        
@@ -160,6 +164,6 @@
         </h3>
       </footer>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    
+    <script src="script.js"></script>
 </body>
 </html>

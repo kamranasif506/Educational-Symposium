@@ -6,15 +6,18 @@
     color: white;
     margin-left: 2%;
 }
+.navbar-brand {
+  display: contents;
+}
 .navbar-logo {
-    width: 22%;
+    width: 12%;
 }
 .box-shadow {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
 }
 #navbarNav {
-    justify-content: center;
-    
+    display: flex;
+    justify-content: flex-end;
   }
 .navbar-nav .nav-item {
   font-size: 1.2rem;
@@ -22,6 +25,9 @@
   .active {
     color: red !important;
     text-shadow: 3px 3px 7px #ccc;
+  }
+  .nav-item:hover {
+    text-shadow: 5px 5px 5px #ccc;
   }
 .banner-container {
     max-width: 100%;
@@ -153,16 +159,42 @@
   display: flex;
   align-items: center;
 }
+#close_nav {
+  display: none !important;
+  text-decoration: none;
+}
+.font_size {
+  font-size: 20px;
+}
 
-@media only screen and (max-width: 760px) {
-  
+@media only screen and (max-width: 768px) {
+  #navbar-btn {
+    display: block;
+  }
   .bg-color {
     margin-left: 0;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
   }
-  #navbarNav {
-    display: none;
+  .font_size {
+    font-size: 16px;
   }
+  #navbarNav {
+    display: block;
+    justify-content: flex-start !important;
+    position: fixed;
+    height: 100%;
+    width: 0;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #DBB1B1F7;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  #navbarNav > ul {
+    padding: 5%;
+  }
+  
   .chess {
     position: absolute;
     left: 0 !important;

@@ -73,9 +73,10 @@
 }
 
 .description_div {
-  background-color: rgba(202, 201, 200, 0.7);
-  box-shadow: 5px 5px 5px #ccc;
-  border-radius: 6px;
+  border: 6px solid #fff;
+  padding: 3%;
+  background: #F8F8F8;
+  color: #868686;
 }
 
 .header {
@@ -230,7 +231,23 @@
   display: flex;
 }
 .font_size {
-  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+}
+.font_size2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+.font_size3 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  text-decoration: underline;
+  line-height: 25px;
 }
 .see_program {
   font-weight: 400;
@@ -295,7 +312,7 @@
   }
 
   .font_size {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #navbarNav {

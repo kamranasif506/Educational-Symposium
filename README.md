@@ -62,7 +62,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Store formdata in localStorage to save the data user enters.
+- home page
+- About Page to give info about Educational Symposium.
+- responsive layout
+- dynamic Layout
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,7 +102,7 @@ Run this command:
 
 ```sh
   cd my-folder
-  git clone https://github.com/kamranasif506/Portfolio.git
+  git clone https://github.com/kamranasif506/Educational-Symposium.git
 ```
 
 ### Install
@@ -154,6 +157,7 @@ You can deploy this project using github pages.
 
 
 - [ ] Add Design animations
+- [ ] Add More Dynamic layouts
 - [ ] Enhance the styling for all screens.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

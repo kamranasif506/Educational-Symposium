@@ -1,55 +1,68 @@
 * {
-  font-family:  'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
+
 .topbar-links {
-    text-decoration: none;
-    color: white;
-    margin-left: 2%;
+  text-decoration: none;
+  color: white;
+  margin-left: 2%;
 }
+
 .navbar-brand {
   display: contents;
 }
+
 .navbar-logo {
-    width: 12%;
+  width: 12%;
 }
+
 .box-shadow {
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
+
 #navbarNav {
-    display: flex;
-    justify-content: flex-end;
-  }
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navbar-nav .nav-item {
   font-size: 1.2rem;
-  }
-  .active {
-    color: red !important;
-    text-shadow: 3px 3px 7px #ccc;
-  }
-  .nav-item:hover {
-    text-shadow: 5px 5px 5px #ccc;
-  }
-.banner-container {
-    max-width: 100%;
-    overflow: hidden;
-  }
-  
-.banner {
-    width: 100%;
-    height: auto;
-  }
-.description {
-    border: 2px solid red;
-    padding: 3%;
-}  
-.description-about {
-    padding: 3%;
 }
+
+.active {
+  color: red !important;
+  text-shadow: 3px 3px 7px #ccc;
+}
+
+.nav-item:hover {
+  text-shadow: 5px 5px 5px #ccc;
+}
+
+.banner-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  border: 2px solid red;
+  padding: 3%;
+}
+
+.description-about {
+  padding: 3%;
+}
+
 .description_div {
   background-color: rgba(202, 201, 200, 0.7);
   box-shadow: 5px 5px 5px #ccc;
   border-radius: 6px;
-}  
+}
+
 .header {
   background-image: url(images/learning-3249827_1920.jpg);
   background-size: 100% 100%;
@@ -58,6 +71,7 @@
   height: 100%;
   width: 100%;
 }
+
 .about-header {
   background-image: url(images/art-6936605_1920.jpg);
   background-size: 100% 100%;
@@ -66,6 +80,7 @@
   height: 100%;
   width: 100%;
 }
+
 .bg-color {
   background-color: #f0f0f0c4; /* Replace with your desired background color */
   height: 100%; /* Match the height of the section */
@@ -76,6 +91,7 @@
   margin-left: 5%;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
 }
+
 .mian-box {
   background-color: #f0f0f0c4; /* Replace with your desired background color */
   height: 100%; /* Match the height of the section */
@@ -85,6 +101,7 @@
   align-items: center;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
 }
+
 #main2 {
   background-image: url(images/main2.jpg);
   width: 100%;
@@ -92,18 +109,22 @@
   padding-top: 30px;
   padding-bottom: 80px;
 }
+
 .hr {
-    width: 15%;
-    margin: auto;
-    border: 1px solid red;
-    opacity: unset;
+  width: 15%;
+  margin: auto;
+  border: 1px solid red;
+  opacity: unset;
 }
+
 .card-color {
   background-color: rgba(61, 61, 64, 0.5);
 }
+
 .card-title {
   color: red;
 }
+
 .card_info {
   color: white;
 }
@@ -111,41 +132,52 @@
 .material-symbols-outlined {
   font-size: 3rem;
 }
+
 .custom_height {
   height: 77%;
 }
+
 .user {
   position: inherit;
 }
+
 .parent_div {
   position: relative;
 }
+
 .chess {
   position: absolute;
   left: 0 !important;
   top: -5%;
   width: 50%;
 }
+
 .first_chess {
   bottom: 52% !important;
 }
+
 .navbar-brand-footer {
   display: contents;
 }
+
 .navbar-brand-footer img {
   width: 21%;
   padding: 2%;
 }
+
 #footer {
   overflow: hidden;
 }
+
 #footer h3 {
   margin-left: 4%;
 }
+
 .logo-img {
   box-shadow: 10px 10px 5px #ccc;
   border-radius: 6px;
 }
+
 .past_event {
   background-image: url(./images/past2015.jpg);
   flex-direction: column;
@@ -159,10 +191,12 @@
   display: flex;
   align-items: center;
 }
+
 #close_nav {
   display: none !important;
   text-decoration: none;
 }
+
 .font_size {
   font-size: 20px;
 }
@@ -171,13 +205,16 @@
   #navbar-btn {
     display: block;
   }
+
   .bg-color {
     margin-left: 0;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
   }
+
   .font_size {
     font-size: 16px;
   }
+
   #navbarNav {
     display: block;
     justify-content: flex-start !important;
@@ -187,30 +224,35 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #DBB1B1F7;
+    background-color: #dbb1b1f7;
     overflow-x: hidden;
     transition: 0.5s;
   }
+
   #navbarNav > ul {
     padding: 5%;
   }
-  
+
   .chess {
     position: absolute;
     left: 0 !important;
     top: -5%;
     width: 50% !important;
   }
+
   .navbar-brand-footer img {
     width: 30%;
   }
+
   .navbar-logo {
     width: 40%;
     margin-left: 10%;
   }
+
   #footer h3 {
     font-size: 1rem;
   }
+
   .custom_height {
     height: auto;
   }

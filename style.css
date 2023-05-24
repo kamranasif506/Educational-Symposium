@@ -255,6 +255,9 @@
 .about-footer {
   background-color: #2E2E2E;
 }
+.about-footer h3 {
+  color: #fff;
+}
 @media only screen and (max-width: 768px) {
   #navbar-btn {
     display: block;
@@ -264,6 +267,12 @@
   }
   .top-bar {
     display: none;
+  }
+  .about-footer {
+    background-color: #fff;
+  }
+  .about-footer h3 {
+    color: #3B3E45;
   }
   .see_program {
     display: none;

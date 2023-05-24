@@ -37,6 +37,9 @@
   display: block;
   
 }
+.text-color {
+  color: #F34910;
+}
 
 .nav-item:hover {
   text-shadow: 5px 5px 5px #ccc;
@@ -53,12 +56,20 @@
 }
 
 .description {
-  border: 2px solid #F34910;
+  border: 6px solid #fff;
   padding: 3%;
+  background: #F8F8F8;
+  color: #868686;
 }
 
 .description-about {
   padding: 3%;
+}
+.font-weight {
+  font-weight: 900;
+}
+.data_color {
+  color: #595959;
 }
 
 .description_div {
@@ -93,7 +104,6 @@
   justify-content: center;
   align-items: center;
   margin-left: 5%;
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);
 }
 
 .mian-box {

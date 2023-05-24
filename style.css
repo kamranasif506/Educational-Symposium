@@ -292,8 +292,16 @@
   background-color: #2e2e2e;
 }
 
+.home_item {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   #navbar-btn {
+    display: block;
+  }
+
+  .home_item {
     display: block;
   }
 

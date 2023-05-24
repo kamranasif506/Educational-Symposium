@@ -29,8 +29,13 @@
 }
 
 .active {
-  color: red !important;
+  color: #F34910 !important;
   text-shadow: 3px 3px 7px #ccc;
+}
+.active_compaign {
+  border: 5px solid #F34910;
+  display: block;
+  
 }
 
 .nav-item:hover {
@@ -48,7 +53,7 @@
 }
 
 .description {
-  border: 2px solid red;
+  border: 2px solid #F34910;
   padding: 3%;
 }
 
@@ -112,7 +117,7 @@
 .hr {
   width: 15%;
   margin: auto;
-  border: 1px solid red;
+  border: 1px solid #F34910;
   opacity: unset;
 }
 
@@ -121,7 +126,7 @@
 }
 
 .card-title {
-  color: red;
+  color: #F34910;
 }
 
 .card_info {
@@ -192,10 +197,15 @@
 }
 
 #close_nav {
-  display: none !important;
   text-decoration: none;
+  float: right;
 }
-
+.active_compaign a {
+  color: #F34910;
+}
+.top-bar {
+  display: flex;
+}
 .font_size {
   font-size: 20px;
 }
@@ -204,7 +214,12 @@
   #navbar-btn {
     display: block;
   }
-
+  .top-bar {
+    display: none;
+  }
+  .active_compaign {
+    display: none;
+  }
   .bg-color {
     margin-left: 0;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.6);

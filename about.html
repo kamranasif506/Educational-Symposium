@@ -21,25 +21,26 @@
     
 </head>
 <body>
+  <header>
     <div class="top-bar bg-dark text-light">
         <div class="container">
             <div class="row">
-                <div class="col-md-8"></div>
-                <div class="col-md-4 text-right d-flex justify-content-end">
-                  <ul class="list-unstyled topbar-list d-flex flex-row align-items-center my-auto">
-                    <li class="list-inline-item">
+                <div class="col-md-7"></div>
+                <div class="col-md-5 text-right d-flex justify-content-end">
+                  <ul class="list-unstyled topbar-list d-flex flex-row align-items-center my-auto flex-fill">
+                    <li class="list-inline-item flex-fill">
                       <a href="#" class="topbar-links"><i class="fab fa-facebook social-icons"></i></a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="list-inline-item flex-fill">
                       <a href="#" class="topbar-links"><i class="fab fa-twitter social-icons"></i></a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="list-inline-item flex-fill">
                       <a href="#" class="topbar-links">English</a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="list-inline-item flex-fill">
                       <a href="#" class="topbar-links">My Page</a>
                     </li>
-                    <li class="list-inline-item">
+                    <li class="list-inline-item flex-fill">
                       <a href="#" class="topbar-links">Logout</a>
                     </li>
                   </ul>
@@ -49,33 +50,43 @@
     </div>
     
     <nav class="navbar navbar-expand-md navbar-light bg-light box-shadow">
-        <div class="container">
-          <a class="navbar-brand col-6" href="index.html">
-            <img src="images/Educational Symposium.png" alt="Logo" class="navbar-logo">
-          </a>
-          <button id="navbar-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <a href="#" id="close_nav" class="close_nav d-flex justify-content-end">
-               <span class="material-symbols-outlined text-black">
-                close
-              </span></a>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link " href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="about.html">About</a>
-              </li>
-             
-              <li class="nav-item">
-                <a class="nav-link" href="#partners">Partners</a>
-              </li>
-            </ul>
-          </div>
+      <div class="container">
+        <a class="navbar-brand col-4" href="index.html">
+          <img src="images/Educational Symposium.png" alt="Logo" class="navbar-logo">
+        </a>
+        <button id="navbar-btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-6 offset-md-1" id="navbarNav">
+          <a href="#" id="close_nav" class="close_nav d-flex justify-content-end d-none">
+             <span class="material-symbols-outlined text-black">
+              close
+            </span></a>
+          <ul class="navbar-nav ml-auto d-flex flex-fill">
+           
+            <li class="nav-item flex-fill my-auto">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item flex-fill my-auto">
+              <a class="nav-link" href="#program">Program</a>
+            </li>
+            <li class="nav-item flex-fill my-auto">
+              <a class="nav-link" href="#join">Join</a>
+            </li>
+            <li class="nav-item flex-fill my-auto">
+              <a class="nav-link" href="#speakers">Speakers</a>
+            </li>
+            <li class="nav-item flex-fill my-auto">
+              <a class="nav-link" href="#partners">Partners</a>
+            </li>
+            <li class="nav-item flex-fill active_compaign text-center">
+              <a class="nav-link" href="#">ES Compaign</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
+  </header>  
     <section class=" container-fluid my-auto about-header d-flex flex-column align-center justify-content-center text-center">
         <div class="row">
           <div class="col-md-12 col-xs-12 col-sm-12 my-auto mian-box">

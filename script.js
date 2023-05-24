@@ -48,7 +48,8 @@ const navbarNav = document.getElementById('navbarNav');
 
 humbergIcon.addEventListener('click', () => {
   navbarNav.style.width = '100%';
-  closeBtn.style.display = 'block';
+  closeBtn.style.cssText += ';display:block !important;';
+
 });
 closeBtn.addEventListener('click', () => {
   navbarNav.style.width = '0%';

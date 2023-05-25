@@ -295,6 +295,15 @@
 .home_item {
   display: none;
 }
+.custom_color3 {
+  color: #5F5F5F;
+}
+.custom_color2 {
+  color: #7a7a7a;
+}
+.custom_color {
+  color: #7a7a7a;
+}
 
 @media only screen and (max-width: 768px) {
   #navbar-btn {
@@ -312,6 +321,7 @@
   .top-bar {
     display: none;
   }
+
 
   .about-footer {
     background-color: #fff;

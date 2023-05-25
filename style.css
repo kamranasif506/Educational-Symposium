@@ -295,12 +295,15 @@
 .home_item {
   display: none;
 }
+
 .custom_color3 {
-  color: #5F5F5F;
+  color: #5f5f5f;
 }
+
 .custom_color2 {
   color: #7a7a7a;
 }
+
 .custom_color {
   color: #7a7a7a;
 }
@@ -321,7 +324,6 @@
   .top-bar {
     display: none;
   }
-
 
   .about-footer {
     background-color: #fff;
